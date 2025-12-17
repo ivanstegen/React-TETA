@@ -11,7 +11,7 @@ const Header = () => {
           <a href="#about">За нас</a>
           <a href="#contact">Контакти</a>
         </nav>
-      </div>
+      </div>x
     </header>
   );
 };

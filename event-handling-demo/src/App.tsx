@@ -2,12 +2,10 @@ import { ChangeEvent } from "react";
 import "./App.css";
 
 const App = () => {
-  // Функция за обработка на промяна в текстовото поле
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>): void => {
     console.log("Въведена стойност:", e.target.value);
   };
 
-  // Функция за обработка на клик върху бутона
   const handleButtonClick = () => {
     console.log("Бутонът е натиснат!");
   };
